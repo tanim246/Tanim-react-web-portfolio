@@ -28,8 +28,8 @@ const Navber = () => {
     },
   ];
   return (
-    <div className="max-w-5xl mx-auto  px-0  ">
-      <div className="navbar px-0 pt-2 bg-yellow-600 ">
+    <div  className="bg-black p-2">
+      <div className="navbar max-w-6xl mx-auto  text-white px-0 pt-2 ">
         <div className="navbar-start items-center">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -51,7 +51,7 @@ const Navber = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu space-y-7  font-semibold menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+              className="menu space-y-7 bg-black font-semibold menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
               {/* nav item */}
               {items?.map((item, index) => (
@@ -66,7 +66,7 @@ const Navber = () => {
           </a>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal space-x-7 font-semibold  px-1">
+          <ul className="menu menu-horizontal  space-x-7 font-semibold  px-1">
             {/* nav items */}
             {items?.map((item, index) => (
               <li className="cursor-pointer text-[16px]" key={index}>
