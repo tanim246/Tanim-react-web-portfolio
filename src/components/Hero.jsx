@@ -1,4 +1,4 @@
-import React from "react";
+// import logo from "./tanim/jpg";
 import Advantage from "./Advantage";
 
 const Hero = () => {
@@ -56,7 +56,7 @@ const Hero = () => {
         </div>
       </section>
       <div>
-        <Advantage />
+        {/* <Advantage /> */}
       </div>
     </div>
   );
