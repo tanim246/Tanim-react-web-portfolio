@@ -36,7 +36,7 @@ const Services = () => {
 
   return (
     <div>
-      <section className="bg-black p-5">
+      <section className="bg-black p-5 py-12">
         <div className="text-center text-white space-y-2 mb-10">
           <h1 className="text-3xl font-bold">My Services</h1>
           <p className="text-gray-400">
@@ -46,7 +46,7 @@ const Services = () => {
         </div>
 
         {/* cards parent */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 max-w-6xl mx-auto sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {servicesData.map((service, index) => (
             <div
               key={index}

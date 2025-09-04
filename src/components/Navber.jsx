@@ -1,4 +1,5 @@
 import React from "react";
+import { HiUser } from "react-icons/hi";
 
 const Navber = () => {
   const items = [
@@ -28,7 +29,7 @@ const Navber = () => {
     },
   ];
   return (
-    <div  className="bg-black p-2">
+    <div className="bg-black p-2">
       <div className="navbar max-w-6xl mx-auto  text-white px-0 pt-2 ">
         <div className="navbar-start items-center">
           <div className="dropdown">
@@ -76,9 +77,9 @@ const Navber = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn bg-[#59c279] mr-4 rounded-full  text-white text-[16px]">
-            Rusume
-          </a>
+          <button className="btn btn-soft btn-info hidden sm:block">
+            <HiUser size={28} />
+          </button>
         </div>
       </div>
     </div>
