@@ -1,10 +1,11 @@
 // import logo from "./tanim/jpg";
 import Advantage from "./Advantage";
+import heroImg from "../../public/assets/images/earth.jpg"
 
 const Hero = () => {
   return (
     <div>
-      <section className="relative overflow-hidden bg-gradient-to-r from-[#1b0f1f] via-[#0d1a1d] to-[#0f1b13] text-white">
+      <section className="relative hero-background  overflow-hidden  text-white">
         {/* Circle Overlay Background */}
         <div className="absolute inset-0">
           <div className="absolute w-[500px] h-[500px] rounded-full bg-[#ffea00]/10 blur-3xl -top-40 -left-40"></div>
@@ -48,7 +49,7 @@ const Hero = () => {
           {/* Right Image */}
           <div className="flex items-center justify-center mb-10 lg:mb-0">
             <img
-              src="" //image dmu pore
+              // src={heroImg} //image dmu pore
               alt="Hero Illustration"
               className="w-64 sm:w-80 md:w-96 lg:w-[28rem] xl:w-[32rem] object-contain"
             />

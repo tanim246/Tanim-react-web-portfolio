@@ -1,2 +1,21 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+.hero-background{
+    background-image: url(../public/assets/images/earth.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.advantage{
+    background-image: url(../public/assets/images/advantage.jpg );
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.servicebg{
+    background-image: url(../public/assets/images/servicebg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

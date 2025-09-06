@@ -15,7 +15,7 @@ const Advantage = () => {
   ];
 
   return (
-    <section className="bg-gradient-to-r from-[#1b0f1f] via-[#0d1a1d] to-[#0f1b13] text-white py-16 px-6 sm:px-12 lg:px-20">
+    <section className="advantage   text-white py-16 px-6 sm:px-12 lg:px-20">
       <div className="container mx-auto flex flex-col lg:flex-row items-center gap-12">
         {/* Left Image */}
         <div className=" w-full lg:w-1/2 flex justify-center">
@@ -43,7 +43,7 @@ const Advantage = () => {
             {skills.map((skill, index) => (
               <div
                 key={index}
-                className={`bg-black/60 border border-transparent hover:border-gray-600 rounded-xl p-6 text-center shadow-md transition`}
+                className={`bg-black/60 border-t border-l border-r border-gray-700 rounded-xl p-6 text-center shadow-md transition`}
               >
                 <p
                   className={`text-3xl font-bold bg-gradient-to-r ${skill.color} bg-clip-text text-transparent`}
